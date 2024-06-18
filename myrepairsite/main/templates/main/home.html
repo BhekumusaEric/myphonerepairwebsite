@@ -1,0 +1,22 @@
+<!-- templates/main/home.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - iPhone Repair and Sell</title>
+</head>
+<body>
+    <h1>Welcome to iPhone Repair and Sell</h1>
+    <p>Introduction to the website and its services.</p>
+    <nav>
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'services' %}">Services</a></li>
+            <li><a href="{% url 'sell' %}">Sell Your iPhone</a></li>
+            <li><a href="{% url 'shop' %}">Shop</a></li>
+            <li><a href="{% url 'about' %}">About Us</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+
